@@ -7,38 +7,38 @@
     <script src="https://kit.fontawesome.com/0daebcb4f2.js" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script defer src="portfolio.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" type="text/css" href="site.css">
     <title>Emil Gusgård</title>
   </head>
   <body class="bg-black">
     <!--NavBar-->
-    <nav class="navbar navbar-expand-xl sticky-top bg-black ">
+    <nav class="navbar navbar-expand-lg sticky-top bg-black ">
       <div class="container-fluid">
-        <a class="navbar-brand text-white" href="#" style="padding-right: 10vw">Emil Gusgård</a>
+        <a class="navbar-brand text-white" href="#" style="padding-right: 8vw">Emil Gusgård</a>
         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-              <a class="nav-link text-white fs-4" aria-current="page" href="#">Home</a>
               <a class="nav-link text-white fs-4" href="#cv">CV</a>
               <a class="nav-link text-white fs-4" href="#projects">Projects</a>
               <a class="nav-link text-white fs-4" href="#about">About</a>
               <a class="nav-link text-white fs-4" href="#contact">Contact</a>
           </ul>
           <!--TODO Custom media query-->
-          <div class="text-center">
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Contact me via LinkedIn!" href="https://fi.linkedin.com/in/emil-gusg%C3%A5rd-9863571a4" role="button">
+          <div class="text-center my-nav-contact-links">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Contact me via LinkedIn!" href="https://fi.linkedin.com/in/emil-gusg%C3%A5rd-9863571a4" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-linkedin"></i>
           </a>
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Send Me Mail" href="mailto:goosedev@hotmail.com" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Send Me Mail" href="mailto:goosedev@hotmail.com" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa-regular fa-envelope"></i>
           </a>
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="My projects on GitHub" href="https://github.com/gusemil" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="My projects on GitHub" href="https://github.com/gusemil" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-github"></i>
           </a>
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check my projects on Youtube!" href="https://www.youtube.com/playlist?list=PLlujc4lWOv3Z0bt-I3f-pHoFYhx-2lO45" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check my projects on Youtube!" href="https://www.youtube.com/playlist?list=PLlujc4lWOv3Z0bt-I3f-pHoFYhx-2lO45" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-youtube"></i>
           </a>
           </div>
@@ -92,7 +92,7 @@
 
 
         <div class="list-group justify-content-center w-100 mx-auto bg-black">
-          <a href="https://www.bigpoint.net/" target="_blank" rel="noopener noreferrer" class="list-group-item list-group-item-action bg-black text-white" aria-current="true">
+          <a class="list-group-item list-group-item-action bg-black text-white" aria-current="true">
             <h3 class="text-white text-center">2022-2024 - Junior Game Developer - Bigpoint Gmbh - Germany</h3>
             <ul class="text-info">
               <li class="fs-5">Software development on live online multiplayer games in a large scale, multinational, company</li>
@@ -102,7 +102,7 @@
               <li class="fs-5 text-white">I worked closely with a multinational and multidisciplinary team involving game designers, artists, narrative designers, producers and other programmers</li>
             </ul>
           </a>
-          <a href="https://www.linkedin.com/company/gallacas-games" target="_blank" rel="noopener noreferrer" class="list-group-item list-group-item-action bg-black text-white" aria-current="true">
+          <a class="list-group-item list-group-item-action bg-black text-white" aria-current="true">
             <h3 class="text-white text-center">2020-2021 - Game Developer Trainee - Gallacas Games - Finland</h3>
             <ul class="text-info">
               <li class="fs-5">Game development on an online multiplayer game prototype for a startup using C# <i class="devicon-csharp-plain colored"></i> and Unity <i class="devicon-unity-plain colored"></i></li>
@@ -115,19 +115,19 @@
 
         <h2 class="text-white text-center">Education</h2>
         <div class="list-group justify-content-center w-100 mx-auto bg-black">
-          <a href="https://www.metropolia.fi/en" target="_blank" rel="noopener noreferrer" class="list-group-item list-group-item-action bg-black text-white" aria-current="true">
+          <a class="list-group-item list-group-item-action bg-black text-white" aria-current="true">
             <div>
             <h3 class="text-center text-white">2018-2023 Bachelor of Engineering, Degree Programme in ICT</h3>
-            <p class="fs-3 text-secondary">Metropolia University of Applied Sciences - Finland</p>
+            <p class="fs-3 text-tertiary fst-italic">Metropolia University of Applied Sciences - Finland</p>
             <ul class="text-info">
               <li class="fs-5">Web development, Mobile Development, Game Development, Game Design, Object Oriented Programming, Data Structures & Algorithms, Graphics Programming, Front-end Development, Back-end Development</li>
             </ul>
             </div>
           </a>
-          <a href="https://www.hdm-stuttgart.de/en" target="_blank" rel="noopener noreferrer" class="list-group-item list-group-item-action bg-black text-white" aria-current="true">
+          <a class="list-group-item list-group-item-action bg-black text-white" aria-current="true">
             <div>
               <h3 class="text-center text-white">2021 - Games Technology Minor Programme</h3>
-              <p class="fs-3 text-secondary">Hochschule Der Medien - Stuttgart</p>
+              <p class="fs-3 text-tertiary fst-italic">Hochschule Der Medien - Stuttgart</p>
               <ul class="text-info">
                 <li class="fs-5">Game Development, Game Design, Graphics Programming</li>
               </ul>
@@ -149,18 +149,18 @@
       <div class="row justify-content-center">
 
       <div class="col col-6 col-md-4 card my-card-styling bg-black" style="width: 20rem;">
-        <a href="https://github.com/gusemil/IntermittentFasting" target="_blank" rel="noopener noreferrer" data-bs-toggle="tooltip" data-bs-title="Click to view the project on GitHub"><img src="images/intermittent-fasting-app.png" class="mt-3 card-img-top" style="height: 12rem;" alt="..."></a>
+        <a href="https://github.com/gusemil/IntermittentFasting"  target="_blank" rel="noopener noreferrer" data-bs-toggle="tooltip" data-bs-title="Click to view the project on GitHub"><img src="images/intermittent-fasting-app.png" class="mt-3 card-img-top" style="height: 12rem;" alt="..."></a>
         <div class="card-body">
           <h3 class="card-title text-center text-white mb-3">Intermittent Fasting App (2024)</h3>
           <p class="card-text text-center text-info mt-4 mb-3">.NET MAUI <i class="devicon-dotnetcore-plain colored"></i>/C# <i class="devicon-csharp-plain colored"></i> (Android <i class="devicon-android-plain colored"></i>) App for tracking intermittent fasting</p>
           <div class="container text-center mt-4">
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Source code on GitHub!" href="https://github.com/gusemil/IntermittentFasting" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Source code on GitHub!" href="https://github.com/gusemil/IntermittentFasting" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-github"></i>
           </a>
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check the project on Youtube!" href="https://youtu.be/6gBp30SZD9k?si=PIBhhlpIXG1sh8A7" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check the project on Youtube!" href="https://youtu.be/6gBp30SZD9k?si=PIBhhlpIXG1sh8A7" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-youtube"></i>
           </a>
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Download the APK installer from Dropbox (Android only)" href="https://www.dropbox.com/scl/fi/dlm1yo999b3wb1c8iv537/com.companyname.intermittentfasting-Signed.apk?rlkey=l8jisfd2g8ocjn7e4fimekqvj&st=vgve1gdh&dl=0" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Download the APK installer from Dropbox (Android only)" href="https://www.dropbox.com/scl/fi/dlm1yo999b3wb1c8iv537/com.companyname.intermittentfasting-Signed.apk?rlkey=l8jisfd2g8ocjn7e4fimekqvj&st=vgve1gdh&dl=0" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-dropbox"></i>
           </a>
           </div>
@@ -173,13 +173,13 @@
           <h3 class="card-title text-center text-white pt-3">The Untitled Godot RPG (2023)</h3>
           <p class="card-text text-center text-info pt-2">3D RPG prototype made in Godot <i class="devicon-godot-plain colored"></i>. Inspired by The Elder Scrolls games.</p>
           <div class="container text-center mt-3">
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Source code on GitHub!" href="https://github.com/gusemil/The-Untitled-Godot-RPG" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Source code on GitHub!" href="https://github.com/gusemil/The-Untitled-Godot-RPG" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-github"></i>
           </a>
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check the project on Youtube!" href="https://www.youtube.com/watch?v=fUtLqPlL2PI" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check the project on Youtube!" href="https://www.youtube.com/watch?v=fUtLqPlL2PI" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-youtube"></i>
           </a>
-        <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Download the game! (Windows/Linux)" href="https://champion-eternal.itch.io/the-untitled-godot-rpg" role="button">
+        <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Download the game! (Windows/Linux)" href="https://champion-eternal.itch.io/the-untitled-godot-rpg" target="_blank" rel="noopener noreferrer" role="button">
           <i class="fa-brands fa-itch-io"></i>
         </a>
           </div>
@@ -192,13 +192,13 @@
           <h3 class="card-title text-center text-white">Strike Control Server (2021)</h3>
           <p class="card-text text-center text-info pt-1">A NodeJS <i class="devicon-nodejs-plain-wordmark colored"></i> high score server for a 3D real-time strategy game (Unity <i class="devicon-unity-plain colored"></i> + C# <i class="devicon-csharp-plain colored"></i>)</p>
           <div class="container text-center mb-4">
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Source code on GitHub!" href="https://github.com/gusemil/StrikeControlNodeServer" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Source code on GitHub!" href="https://github.com/gusemil/StrikeControlNodeServer" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-github"></i>
           </a>
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check the project on Youtube!" href="https://youtu.be/6P-S2v2Ve_4?si=djzasug7YDmMNy9g" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check the project on Youtube!" href="https://youtu.be/6P-S2v2Ve_4?si=djzasug7YDmMNy9g" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-youtube"></i>
           </a>
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Download the game executable and the server!" href="https://www.dropbox.com/s/v7iwp1h6hqlu3mn/StrikeControlBuild-And-NodeServer.zip?dl=0" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Download the game executable and the server!" href="https://www.dropbox.com/s/v7iwp1h6hqlu3mn/StrikeControlBuild-And-NodeServer.zip?dl=0" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-dropbox"></i>
           </a>
           </div>
@@ -216,13 +216,13 @@
             <h3 class="card-title text-center text-white mt-2 mb-4">Unreal Engine Diablo clone (2021)</h3>
             <p class="card-text text-center text-info mt-3">3D Action-RPG prototype in the vein of Diablo made in Unreal Engine 4 <i class="devicon-unrealengine-original text-white"></i> for Gameplay Programming course.</p>
             <div class="container text-center mt-4">
-            <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Source code on GitHub!" href="https://github.com/gusemil/UE-Diablo-Prototype2" role="button">
+            <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Source code on GitHub!" href="https://github.com/gusemil/UE-Diablo-Prototype2" target="_blank" rel="noopener noreferrer" role="button">
               <i class="fa fa-github"></i>
             </a>
-            <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check the project on Youtube!" href="https://www.youtube.com/watch?v=dPS1Hv1Dxtc" role="button">
+            <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check the project on Youtube!" href="https://www.youtube.com/watch?v=dPS1Hv1Dxtc" target="_blank" rel="noopener noreferrer" role="button">
               <i class="fa fa-youtube"></i>
             </a>
-            <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Download the game! (Windows)" href="https://champion-eternal.itch.io/der-teufel-2-unreal-engine-diabloclone" role="button">
+            <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Download the game! (Windows)" href="https://champion-eternal.itch.io/der-teufel-2-unreal-engine-diabloclone" target="_blank" rel="noopener noreferrer" role="button">
               <i class="fa-brands fa-itch-io"></i>
             </a>
             </div>
@@ -235,10 +235,10 @@
           <h3 class="card-title text-center text-white">Unity Graphics Programming Demo (2021)</h3>
           <p class="card-text text-center text-info">Demonstration of Graphics Programming (Shaders, Particles) for Graphics Programming Course</p>
           <div class="container text-center">
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Source code on GitHub!" href="https://github.com/gusemil/unity-graphics-demo-2020" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Source code on GitHub!" href="https://github.com/gusemil/unity-graphics-demo-2020" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-github"></i>
           </a>
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check the project on Youtube!" href="https://www.youtube.com/watch?v=jl61VDl5N8c" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check the project on Youtube!" href="https://www.youtube.com/watch?v=jl61VDl5N8c" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-youtube"></i>
           </a>
           </div>
@@ -251,10 +251,10 @@
           <h3 class="card-title text-center text-white">Xenoshock 2D (2020)</h3>
           <p class="card-text text-center mt-4 text-info">Solo-developed Unity 2D <i class="devicon-unity-plain colored"></i> (C# <i class="devicon-csharp-plain colored"></i>) Topdown shooter in the vein of Crimsonland and Hotline Miami</p>
           <div class="container text-center mt-4">
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Source code on GitHub!" href="https://github.com/gusemil/TopDownShooter2D" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Source code on GitHub!" href="https://github.com/gusemil/TopDownShooter2D" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-github"></i>
           </a>
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check the project on Youtube!" href="https://www.youtube.com/watch?v=fUtLqPlL2PI" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check the project on Youtube!" href="https://www.youtube.com/watch?v=fUtLqPlL2PI" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-youtube"></i>
           </a>
           </div>
@@ -336,7 +336,7 @@
           <p class="text-info fs-4"> When I am off the computer, I enjoy a variety of card games, miniature games and roleplaying games.</p>
         </div>
         <div class="col mb-3">
-          <p class="text-secondary fs-5"> For self-improvement I read history and biographies, listen to podcasts, hike and go to the gym.</p>
+          <p class="text-white fst-italic fs-5"> For self-improvement I read history, listen to podcasts, hike and go to the gym.</p>
         </div>
       </div>
       <div class="container justify-content-center mx-auto">
@@ -354,28 +354,28 @@
       <div class="row">
 
       <div class="col d-inline bg-info rounded-3 m-3">
-        <a class="btn btn-lg btn-outline-dark m-1 mt-3" data-bs-toggle="tooltip" data-bs-title="Contact me via LinkedIn!" href="https://fi.linkedin.com/in/emil-gusg%C3%A5rd-9863571a4" role="button">
+        <a class="btn btn-lg btn-outline-dark m-1 mt-3" data-bs-toggle="tooltip" data-bs-title="Contact me via LinkedIn!" href="https://fi.linkedin.com/in/emil-gusg%C3%A5rd-9863571a4" target="_blank" rel="noopener noreferrer" role="button">
           <i class="fa fa-linkedin"></i>
         </a>
         <h3 class="text-white">LinkedIn</h3>
       </div>
 
       <div class="col d-inline bg-info rounded-3 m-3">
-        <a class="btn btn-lg btn-outline-dark btn-floating mt-3" data-bs-toggle="tooltip" data-bs-title="Send Me Mail" href="mailto:goosedev@hotmail.com" role="button">
+        <a class="btn btn-lg btn-outline-dark btn-floating mt-3" data-bs-toggle="tooltip" data-bs-title="Send Me Mail" href="mailto:goosedev@hotmail.com" target="_blank" rel="noopener noreferrer" role="button">
           <i class="fa-regular fa-envelope"></i>
         </a>
         <h3 class="text-white">E-mail</h3>
       </div>
 
       <div class="col d-inline bg-info rounded-3 m-3">
-        <a class="btn btn-lg btn-outline-dark m-1 mt-3" data-bs-toggle="tooltip" data-bs-title="My projects on GitHub" href="https://github.com/gusemil" role="button">
+        <a class="btn btn-lg btn-outline-dark m-1 mt-3" data-bs-toggle="tooltip" data-bs-title="My projects on GitHub" href="https://github.com/gusemil" target="_blank" rel="noopener noreferrer" role="button">
           <i class="fa fa-github"></i>
         </a>
         <h3 class="text-white">GitHub</h3>
       </div>
 
       <div class="col d-inline bg-info rounded-3 m-3">
-        <a class="btn btn-lg btn-outline-dark m-1 mt-3" data-bs-toggle="tooltip" data-bs-title="Check my projects on Youtube!" href="https://www.youtube.com/playlist?list=PLlujc4lWOv3Z0bt-I3f-pHoFYhx-2lO45" role="button">
+        <a class="btn btn-lg btn-outline-dark m-1 mt-3" data-bs-toggle="tooltip" data-bs-title="Check my projects on Youtube!" href="https://www.youtube.com/playlist?list=PLlujc4lWOv3Z0bt-I3f-pHoFYhx-2lO45" target="_blank" rel="noopener noreferrer" role="button">
           <i class="fa fa-youtube"></i>
         </a>
         <h3 class="text-white">Youtube</h3>
@@ -392,16 +392,16 @@
     <!-- Footer -->
     <footer class="bg-black text-center sticky-bottom">
       <div class="container text-center">
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Contact me via LinkedIn!" href="https://fi.linkedin.com/in/emil-gusg%C3%A5rd-9863571a4" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Contact me via LinkedIn!" href="https://fi.linkedin.com/in/emil-gusg%C3%A5rd-9863571a4" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa fa-linkedin"></i>
           </a>
-          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Send Me Mail" href="mailto:goosedev@hotmail.com" role="button">
+          <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Send Me Mail" href="mailto:goosedev@hotmail.com" target="_blank" rel="noopener noreferrer" role="button">
             <i class="fa-regular fa-envelope"></i>
           </a>
-        <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="My projects on GitHub" href="https://github.com/gusemil" role="button">
+        <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="My projects on GitHub" href="https://github.com/gusemil" target="_blank" rel="noopener noreferrer" role="button">
           <i class="fa fa-github"></i>
         </a>
-        <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check my projects on Youtube!" href="https://www.youtube.com/playlist?list=PLlujc4lWOv3Z0bt-I3f-pHoFYhx-2lO45" role="button">
+        <a class="btn btn-lg btn-outline-light btn-floating m-2" data-bs-toggle="tooltip" data-bs-title="Check my projects on Youtube!" href="https://www.youtube.com/playlist?list=PLlujc4lWOv3Z0bt-I3f-pHoFYhx-2lO45" target="_blank" rel="noopener noreferrer" role="button">
           <i class="fa fa-youtube"></i>
         </a>
       </div>
