@@ -22,17 +22,15 @@ $('.my-tooltip').on("mouseleave",function() {
     }
 });
 
-/*
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').click(function () {
-       $('[data-toggle="tooltip"]').tooltip("hide");
-
-    });
-
+$('.my-tooltip').on("mouseenter",function() {
     for(i = 0; i < tooltipList.length; i++){
-        tooltipList.addEventListener('focus', (e) => {
-            e.target.tooltipList[i].disable();
-        });
+        tooltipList[i].hide();
     }
 });
-*/
+
+$('.my-tooltip').click(function() {
+    for(i = 0; i < tooltipList.length; i++){
+        tooltipList[i].hide();
+    }
+});
+
