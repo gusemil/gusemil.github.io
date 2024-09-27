@@ -8,4 +8,12 @@
         visibility: none;
         display: none;
     }
+
+    .my-nav-link {
+        text-align: center;
+    }
   }
+  
+.my-nav-link:hover {
+    background-color: rgb(0, 115, 255);
+}
