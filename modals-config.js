@@ -6,6 +6,16 @@
 
 const MODALS_CONFIG = [
   {
+    id: 'dungeonModal',
+    title: 'The Untitled Dungeon Crawler (TBA)',
+    image: 'images/dungeon.png',
+    description: `A work in progress old-school 3D Action-RPG made in Godot 4, using Blender and Trenchroom in addition`,
+    content: `<p>A work in progress old-school 3D Action-RPG made in Godot 4, using Blender and Trenchbroom in addition</p>`,
+    links: [
+      { url: 'https://www.youtube.com/watch?v=dU6H0RkQnac&feature=youtu.be', icon: 'fa fa-youtube', label: 'YouTube' }
+    ]
+  },
+  {
     id: 'questionModal',
     title: 'Fossreads (TBA)',
     image: 'images/question.png',
@@ -25,7 +35,7 @@ const MODALS_CONFIG = [
       <p>Laravel (PHP)/SQL (PostgreSQL) based CRUD site for tracking stats and matches of nerdy miniature war games using ELO scoring system.</p>
     `,
     links: [
-      { url: 'https://github.com/gusemil/wargame-tracker-php-1.0/', icon: 'fa fa-github', label: 'GitHub' }
+      { url: 'https://github.com/gusemil/wargametracker-laravel', icon: 'fa fa-github', label: 'GitHub' }
     ]
   },
   {
@@ -51,7 +61,6 @@ const MODALS_CONFIG = [
         <li>Backend: PHP</li>
         <li>Databases: SQL</li>
       </ul>
-      <p><b>NOTE: An expanded version is in the works</b></p>
     `,
     links: [
       { url: 'https://github.com/gusemil/wargame-tracker-php-1.0/', icon: 'fa fa-github', label: 'GitHub' },
